@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: #2B2B29;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: left;
+}
+
+p, h4 {
+    font-size: 14pt;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p {
+    line-height: 1.45;
+}
+
+.italic {
+    font-style: italic;
+}
+/* HEADER + NAV BAR (please try not to change anything) --------------------------------------------------------------------------------------------------------*/
+header {
+    width: 100%;
+    padding: 5pt;
+    color: black;
+    background-image: url("https://bitss22.s3.amazonaws.com/background.png");
+    text-align: center;
+}
+
+h1 {
+    font-size: 35pt;
+}
+nav {
+    background: #2B2B29;
+    color: white;
+    overflow: hidden;
+    border-radius: 5pt; /*This gives containers the cool, smooth rounded effect*/
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    background: #2B2B29;
+    padding: 15pt 25pt;
+    display: block;
+}
+
+nav li a:hover {
+    background: #EDF3F2;
+    color: black;
+    border-radius: 5pt;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2B2B29;
+    font-size: 15pt;
+    font-weight: bolder;
+
+}
+
+/* HEADER + NAV BAR END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* GROUP MEMBERS START --------------------------------------------------------------------------------------------------------*/
+.img {
+    height: 10%;
+    width: 10%;
+}
+
+.img2 {
+    height: 12%;
+    width: 12%;
+}
+
+.img3 {
+    height: 10%;
+    width: 10%;
+}
+
+.img4 {
+    height: 10%;
+    width: 10%;
+}
+
+.img5 {
+    height: 10%;
+    width: 10%;
+}
+
+/* GROUP MEMBERS END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* DESCRIPTION START --------------------------------------------------------------------------------------------------------*/
+
+
+/* DESCRIPTION END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* DEMONSTRABLE OUTCOMES START --------------------------------------------------------------------------------------------------------*/
+
+/* DEMONSTRABLE OUTCOMES END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* PROJECT JUSTIFICATION --------------------------------------------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+.heading {
+    padding: 5px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    background-color: #2B2B29
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* PROJECT JUSTIFICATION --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* HOW START --------------------------------------------------------------------------------------------------------*/
+.collab ul li{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5pt;
+    text-align: center;
+    margin-bottom: 1px;
+    background: gray;
+    border: 1px solid black;
+    list-style: none;
+    font-size: 18pt;
+    font-weight: bold;
+    
+}
+.collab ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+}
+.collab ul li a:hover{
+    background: #EDF3F2;
+    color: black;
+    padding: 3pt;
+    border-radius: 5pt;
+    width: 10%;
+}
+.contract p{
+    text-align: left;
+    line-height: 1.45;
+    font-size: 14pt;
+}
+.contract ul{
+    font-size: 14pt;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.contract h4{
+    font-size: 17pt;
+    font-weight: bold;
+}
+.contract ol{
+    font-size: 14pt;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/* HOW END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* WHEN START --------------------------------------------------------------------------------------------------------*/
+.when table {
+    width: 100%;    
+}
+.when table, th, td {
+    padding: 10px;
+    border: 2px solid white;
+    border-collapse: collapse;
+    font-size: 16pt;
+}
+.when td a{
+    text-decoration: none;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+}
+.when td a{
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+}
+.when td a:hover{
+    background: #EDF3F2;
+    color: black;
+    padding: 3pt;
+    border-radius: 5pt;
+    width: 10%;
+}
+/* WHEN END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/*FOOTER --------------------------------------------------------------------------------------------------------*/
+footer {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+}
