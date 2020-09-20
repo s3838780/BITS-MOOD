@@ -1,4 +1,4 @@
-body {
+body p {
     margin: 0;
     font-family: monospace;
     background-color: #2B2B29;
@@ -31,6 +31,7 @@ p, h4 {
 
 p {
     line-height: 1.45;
+    text-align: left;
 }
 
 .italic {
