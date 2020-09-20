@@ -125,7 +125,25 @@ nav ul {
 
 
 /* GROUP WORK START --------------------------------------------------------------------------------------------------------*/
+table, th, td{
+    font-size: 14pt;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-left: 40%;
+    text-align: left;
+}
 
+table, td {
+    width: 20%;
+}
+
+th{
+    width: 10%;
+}
+
+a {
+    color: rgb(68, 68, 236);
+}
 
 /* GROUP WORK END --------------------------------------------------------------------------------------------------------*/
 
