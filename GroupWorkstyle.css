@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: #2B2B29;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+}
+
+p, h4 {
+    font-size: 14pt;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p {
+    line-height: 1.45;
+    text-align: left;
+}
+
+.italic {
+    font-style: italic;
+}
+/* HEADER + NAV BAR (please try not to change anything) --------------------------------------------------------------------------------------------------------*/
+header {
+    width: 100%;
+    padding: 5pt;
+    color: black;
+    background-image: url("https://bitss22.s3.amazonaws.com/background.png");
+    text-align: center;
+}
+
+h1 {
+    font-size: 35pt;
+}
+nav {
+    background: #2B2B29;
+    color: white;
+    overflow: hidden;
+    border-radius: 5pt; /*This gives containers the cool, smooth rounded effect*/
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    background: #2B2B29;
+    padding: 15pt 25pt;
+    display: block;
+}
+
+nav li a:hover {
+    background: #EDF3F2;
+    color: black;
+    border-radius: 5pt;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2B2B29;
+    font-size: 15pt;
+    font-weight: bolder;
+
+}
+
+table, th, td{
+    font-size: 14pt;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-left: 40%;
+    text-align: left;
+}
+
+table, td {
+    width: 20%;
+}
+
+th{
+    width: 10%;
+}
+
+a {
+    color: rgb(68, 68, 236);
+}
+/* HEADER + NAV BAR END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* JOURNAL START --------------------------------------------------------------------------------------------------------*/
+
+
+/* JOURNAL END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* REMINDERS START --------------------------------------------------------------------------------------------------------*/
+
+
+/* REMINDERS END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* RESOURCES START --------------------------------------------------------------------------------------------------------*/
+
+
+/* RESOURCES END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* POINT SYSTEM START --------------------------------------------------------------------------------------------------------*/
+
+
+/* POINT SYSTEM END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* COPING STRATEGIES START --------------------------------------------------------------------------------------------------------*/
+
+/* COPING STRATEGIES END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* GROUP WORK START --------------------------------------------------------------------------------------------------------*/
+
+
+/* GROUP WORK END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/*FOOTER --------------------------------------------------------------------------------------------------------*/
+footer {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+}
