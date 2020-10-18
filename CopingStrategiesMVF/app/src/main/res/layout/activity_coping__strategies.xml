@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".Coping_Strategies">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="347dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:cardBackgroundColor="@color/purple_500">
+
+            <EditText
+                android:id="@+id/anxietyTitle"
+                android:layout_width="84dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:editable="false"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:text="@string/anxiety" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/anxietyDesc"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="40dp"
+            android:text="@string/anxiety_desc"
+            android:editable="false"/>
+
+        <TextView
+            android:id="@+id/anxietyManifest"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:editable="false"
+            android:paddingLeft="5dp"
+            android:paddingTop="120dp"
+            android:text="@string/anxiety_manifest" />
+
+        <TextView
+            android:id="@+id/anxietyLinkDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:paddingLeft="5dp"
+            android:paddingTop="210dp"
+            android:text="@string/anxiety_link_desc" />
+
+
+        <TextView
+            android:id="@+id/anxietyLink"
+            android:layout_width="276dp"
+            android:layout_height="264dp"
+            android:autoLink="web"
+            android:editable="false"
+            android:linksClickable="true"
+            android:paddingLeft="5dp"
+            android:paddingTop="230dp"
+            android:text="@string/anxiety_link" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:cardBackgroundColor="@color/purple_500">
+
+            <EditText
+                android:id="@+id/depressionTitle"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:editable="false"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:text="@string/depression" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/depressionDesc"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:editable="false"
+            android:paddingLeft="5dp"
+            android:paddingTop="40dp"
+            android:text="@string/depression_desc" />
+
+        <TextView
+            android:id="@+id/depressionManifest"
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:editable="false"
+            android:paddingLeft="5dp"
+            android:paddingTop="86dp"
+            android:text="@string/depression_manifest" />
+
+        <TextView
+            android:id="@+id/depressionLinkDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:paddingLeft="5dp"
+            android:paddingTop="165dp"
+            android:text="@string/depression_link_desc" />
+
+
+        <TextView
+            android:id="@+id/depressionLink"
+            android:layout_width="276dp"
+            android:layout_height="264dp"
+            android:autoLink="web"
+            android:editable="false"
+            android:linksClickable="true"
+            android:paddingLeft="5dp"
+            android:paddingTop="185dp"
+            android:text="@string/depression_link" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

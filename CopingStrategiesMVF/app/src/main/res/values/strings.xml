@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CopingStrategiesMVF</string>
+    <string name="anxiety">Anxiety</string>
+    <string name="anxiety_desc">Anxiety is a condition often described as a person having a feeling of uneasiness and apprehension towards particular stimuli, combined with symptoms of panic.</string>
+    <string name="anxiety_manifest">Anxiety can often appear to a person through stress, increased heart rate, irritability, or breathing problems. If you experience problems with anxiety it may be recommended to speak to a psychiatrist or psychologist to discuss your issues.</string>
+    <string name="anxiety_link_desc">You can read more about anxiety here: </string>
+    <string name="anxiety_link">www.beyondblue.org.au/the-facts/anxiety</string>
+
+    <string name="depression">Depression</string>
+    <string name="depression_desc">Depression is a condition linked with a reduced level of serotonin in your brain</string>
+    <string name="depression_manifest">Depression can often manifest in a person through reduced energy levels or repeated negative emotions. If you experience symptoms of depression it is important to a psychiatrist or a psychologist.</string>
+    <string name="depression_link_desc">You can read more about depression here: </string>
+    <string name="depression_link">www.beyondblue.org.au/the-facts/depression</string>
+</resources>
